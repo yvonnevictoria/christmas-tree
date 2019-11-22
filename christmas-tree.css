@@ -89,7 +89,40 @@
 
 .decoration {
     z-index: 2;
+}
+
+.tinsel, .tinsel:before, .tinsel:after {
+    border: solid 10px gold;
+    border-color: transparent transparent gold transparent;
+    border-radius: 50%/0 0 100px 100px;
+    z-index: 4;
     position: absolute;
+}
+
+.tinsel {
+    width: 297px;
+    height: 110px;
+    bottom: 306px;
+    left: 111px;
+    transform: rotate(19deg);
+}
+
+.tinsel:before, .tinsel:after {
+    content: '';
+}
+
+.tinsel:before {
+    width: 199px; /*172*/
+    height: 100px;
+    bottom: 80px;
+    left: -3px;
+}
+
+.tinsel:after {
+    width: 361px;
+    height: 100px;
+    bottom: -104px;
+    left: -14px;
 }
 
 .red-bauble, .red-bauble:before, .red-bauble:after {
