@@ -1,0 +1,294 @@
+.tree-holder {
+    position: relative;
+    width: 500px;
+    height: 700px;
+}
+
+.star, .star:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    z-index: 3;
+}
+
+.star {
+    border-bottom: 70px solid gold;
+    bottom: 512px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.star:before {
+    content: '';
+    border-top: 70px solid gold;
+    left: 50%;
+    margin-left: -40px;
+    bottom: -92px;
+}
+
+.stump {
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    background: brown;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+.tree-body {
+    position: absolute;
+    z-index: 1;
+}
+
+.tree-top {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #008000;
+    bottom: 435px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tree-middle {
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 140px solid #008000;
+    bottom: 345px;
+    left: 50%;
+    margin-left: -140px;
+}
+
+.tree-bottom {
+    width: 0;
+    height: 0;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid #008000;
+    bottom: 250px;
+    left: 50%;
+    margin-left: -180px;
+}
+
+.tree-final-layer-i-didnt-expect {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid #008000;
+    bottom: 150px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.decoration {
+    z-index: 2;
+    position: absolute;
+}
+
+.red-bauble, .red-bauble:before, .red-bauble:after {
+    border: solid 13px crimson;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.red-bauble {
+    bottom: 168px;
+    left: 335px;
+}
+
+.red-bauble:before, .red-bauble:after {
+    content: '';
+}
+
+.red-bauble:before {
+    bottom: 280px;
+    left: -91px;
+}
+
+.red-bauble:after {
+    bottom: 174px;
+    left: -194px;
+}
+
+.blue-bauble, .blue-bauble:before, .blue-bauble:after {
+    border: solid 13px cornflowerblue;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.blue-bauble {
+    bottom: 272px;
+    left: 290px;
+}
+
+.blue-bauble:before, .blue-bauble:after {
+    content: '';
+}
+
+.blue-bauble:before {
+    bottom: -105px;
+    left: -148px;
+}
+
+.blue-bauble:after {
+    bottom: 103px;
+    left: -103px;
+}
+
+.purple-bauble, .purple-bauble:before, .purple-bauble:after {
+    border: solid 13px #b19cd9;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.purple-bauble {
+    bottom: 288px;
+    left: 158px;
+}
+
+.purple-bauble:before, .purple-bauble:after {
+    content: '';
+}
+
+.purple-bauble:before {
+    bottom: -89px;
+    left: 82px;
+}
+
+.purple-bauble:after {
+    bottom: 143px;
+    left: 24px;
+}
+
+.pink-bauble, .pink-bauble:before, .pink-bauble:after {
+    border: solid 13px hotpink;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.pink-bauble {
+    bottom: 315px;
+    left: 211px;
+}
+
+.pink-bauble:before, .pink-bauble:after {
+    content: '';
+}
+
+.pink-bauble:before {
+    bottom: -89px;
+    left: -50px;
+}
+
+.pink-bauble:after {
+    bottom: 31px;
+    left: 84px;
+}
+
+.orange-bauble, .orange-bauble:before, .orange-bauble:after {
+    border: solid 13px darkorange;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.orange-bauble {
+    bottom: 263px;
+    left: 230px;
+}
+
+.orange-bauble:before, .orange-bauble:after {
+    content: '';
+}
+
+.orange-bauble:before {
+    bottom: -116px;
+    left: -142px;
+}
+
+.orange-bauble:after {
+    bottom: 124px;
+    left: 25px;
+}
+
+.yellow-bauble, .yellow-bauble:before, .yellow-bauble:after {
+    border: solid 13px yellow;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.yellow-bauble {
+    bottom: 165px;
+    left: 276px;
+}
+
+.yellow-bauble:before, .yellow-bauble:after {
+    content: '';
+}
+
+.yellow-bauble:before {
+    bottom: 85px;
+    left: 69px;
+}
+
+.yellow-bauble:after {
+    bottom: 137px;
+    left: -22px;
+}
+
+.pastel-blue-bauble, .pastel-blue-bauble:before, .pastel-blue-bauble:after {
+    border: solid 13px darkturquoise;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.pastel-blue-bauble {
+    bottom: 170px;
+    left: 209px;
+}
+
+.pastel-blue-bauble:before, .pastel-blue-bauble:after {
+    content: '';
+}
+
+.pastel-blue-bauble:before {
+    bottom: 178px;
+    left: 24px;
+}
+
+.pastel-blue-bauble:after {
+    bottom: 37px;
+    left: 92px;
+}
+
+.coral-bauble, .coral-bauble:before, .coral-bauble:after {
+    border: solid 13px coral;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.coral-bauble {
+    bottom: 163px;
+    left: 381px;
+}
+
+.coral-bauble:before, .coral-bauble:after {
+    content: '';
+}
+
+.coral-bauble:before {
+    bottom: 174px;
+    left: -202px;
+}
+
+.coral-bauble:after {
+    bottom: 250px;
+    left: -164px;
+}
+/* dark turquoise, coral */
