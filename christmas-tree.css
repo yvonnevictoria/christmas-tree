@@ -324,3 +324,77 @@
     bottom: 250px;
     left: -164px;
 }
+
+.present {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.present:before, .present:after {
+    content: '';
+}
+
+.present:before {
+    width: 20px;
+    height: 70px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.present:after {
+    width: 70px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.red-present {
+    background: red;
+    left: 137px;
+    bottom: 30px;
+}
+
+.red-present:before, .red-present:after {
+    content: '';
+    background: dodgerblue;
+    position: absolute;
+}
+
+.pink-present {
+    background: deeppink;
+    left: 322px;
+    bottom: 19px;
+    z-index: 5;
+}
+
+.pink-present:before, .pink-present:after {
+    content: '';
+    background: lightsalmon;
+    position: absolute;
+}
+
+.orange-present {
+    background: darkorange;
+    left: 198px;
+    bottom: 19px;
+    z-index: 5;
+}
+
+.orange-present:before, .orange-present:after {
+    content: '';
+    background: purple;
+    position: absolute;
+}
+
+.blue-present {
+    background: lightseagreen;
+    left: 260px;
+    bottom: 28px;
+}
+
+.blue-present:before, .blue-present:after {
+    content: '';
+    background: yellow;
+    position: absolute;
+}
